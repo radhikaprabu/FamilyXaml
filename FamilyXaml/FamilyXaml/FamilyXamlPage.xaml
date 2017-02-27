@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyXaml.FamilyXamlPage">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <StackLayout.Children>
+          <Label Text="Meet My Family!!!"
+                 HorizontalTextAlignment="Center"
+                 VerticalOptions="Center"
+                 FontSize="42"
+                 FontAttributes="Bold" />
+          <Label VerticalOptions ="Center"
+                 HorizontalOptions="Center"
+                 Text ="This App gives information about my family"
+                 FontSize="32"/>
+          <Label VerticalOptions ="Center"
+                 HorizontalTextAlignment="Start"
+                 BackgroundColor="Blue">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="My name is " FontSize="32"/>
+                <Span Text="Radhika. " FontAttributes="Bold"
+                      FontSize="32"
+                      ForegroundColor="Red" />
+                <Span Text="I am a student studying .NET programming
+            at Hennepin Tech. I am also a mom of two beautiful kids.
+            I am from India. I love to be creative. I am a self 
+            taught jewelry maker."
+                      FontSize="32"
+                    />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+
+          <Label VerticalOptions ="Center"
+                 HorizontalTextAlignment="Start"
+                 BackgroundColor="Red">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="My husband is " FontSize="32"/>
+                <Span Text="Prabu. " FontAttributes="Bold"
+                      FontSize="32"
+                      ForegroundColor="Green" />
+                <Span Text="He is an Application Architect. He loves Java.
+                      He also writes for an online Tamil language magazine.
+                      He loves playing golf and volley ball."
+                      FontSize="32"
+                    />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        <Label VerticalOptions ="Center"
+                 HorizontalTextAlignment="Start"
+                 BackgroundColor="Green">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="My daughter is " FontSize="32"/>
+                <Span Text="Aditi. " FontAttributes="Bold"
+                      FontSize="20"
+                      ForegroundColor="Fuchsia" />
+                <Span Text="She is in 8th grade. She plays guitar
+                      and piano. She also draws. She is a very
+                      loving teenager"
+                      FontSize="32"
+                    />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        <Label VerticalOptions ="Center"
+                 HorizontalTextAlignment="Start"
+                 BackgroundColor="Gray">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="My son is " FontSize="32"/>
+                <Span Text="Abishek. " FontAttributes="Bold"
+                      FontSize="32"
+                      ForegroundColor="Maroon" />
+                <Span Text="Abi is 8 years old and is in 3rd grade.
+                      He is extremely naughty and keeps me on my 
+                      toes."
+                      FontSize="32"
+                    />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        </StackLayout.Children>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>
