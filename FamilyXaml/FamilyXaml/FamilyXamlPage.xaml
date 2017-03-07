@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FamilyXaml"
              x:Class="FamilyXaml.FamilyXamlPage">
   <ContentPage.Content>
     <ScrollView>
@@ -34,6 +35,8 @@
             </Label.FormattedText>
           </Label>
 
+          <Image Source="{local:ImageResource FamilyXaml.Prabu.jpg}" />
+
           <Label VerticalOptions ="Center"
                  HorizontalTextAlignment="Start"
                  BackgroundColor="Red">
@@ -51,9 +54,12 @@
               </FormattedString>
             </Label.FormattedText>
           </Label>
-        <Label VerticalOptions ="Center"
-                 HorizontalTextAlignment="Start"
-                 BackgroundColor="Green">
+          
+          <Image Source="{local:ImageResource FamilyXaml.Aditi.jpg}" />
+          
+          <Label VerticalOptions ="Center"
+                   HorizontalTextAlignment="Start"
+                   BackgroundColor="Green">
             <Label.FormattedText>
               <FormattedString>
                 <Span Text="My daughter is " FontSize="32"/>
@@ -68,9 +74,12 @@
               </FormattedString>
             </Label.FormattedText>
           </Label>
-        <Label VerticalOptions ="Center"
-                 HorizontalTextAlignment="Start"
-                 BackgroundColor="Gray">
+          
+          <Image Source="{local:ImageResource FamilyXaml.Abi.jpg}" />
+          
+          <Label VerticalOptions ="Center"
+                   HorizontalTextAlignment="Start"
+                   BackgroundColor="Gray">
             <Label.FormattedText>
               <FormattedString>
                 <Span Text="My son is " FontSize="32"/>
