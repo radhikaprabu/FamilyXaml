@@ -16,6 +16,7 @@
                  HorizontalOptions="Center"
                  Text ="This App gives information about my family"
                  FontSize="32"/>
+          <Image Source="{local:ImageResource FamilyXaml.Radhika.jpg}" />
           <Label VerticalOptions ="Center"
                  HorizontalTextAlignment="Start"
                  BackgroundColor="Blue">
